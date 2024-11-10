@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- This is the starting point of the form. It defines what happens when the form is submitted.
+action tells where to send the data
+method is POST
+-->
+<form action = "http://127.0.0.1:5000/login" method = "post">
+         <p>Enter Name:</p>
+    <!-- text input field where the user can enter their name
+    nm is the name of input field
+    The server uses this name ("nm") to get the value entered by the user.
+     type= "Submit," it is a submit button
+     the form sends the data to the server with name="nm" and the value entered (e.g., nm=Krishna).-->
+
+         <p><input type = "text" name = "nm" /></p>
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+</body>
+</html>
